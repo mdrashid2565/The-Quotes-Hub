@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #eef2f4;
+}
+
+header {
+    padding: 20%;
+    /* margin: 1%; */
+    /* position: fixed; */
+    padding: 0;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #3baee2;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 4px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+header .logo {
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+header .navbar ul {
+    list-style: none;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+header .navbar ul li {
+    text-align: left;
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+
+    font-size: 20px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+
+header .navbar ul li a:hover {
+    /* border-radius: 35px; */
+    background: #3baee2;
+    /* color: rgb(255, 0, 0); */
+}
+
+header .navbar ul li ul {
+
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #393d3f;
+    display: none;
+
+}
+
+header .navbar ul li:focus-within>ul,
+header .navbar ul li:hover>ul {
+    display: initial;
+}
+
+.page-title {
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+    width: 800px;
+    height: 6500px;
+    margin-top: 2%;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 17px;
+
+    /* margin: 1%; */
+
+}
+.mainheading{
+    /* background-color: aquamarine; */
+    height: 160px;
+    /* padding: 20%; */
+    
+}
+
+.h{
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 10px;
+    /* background-color: aqua; */
+    font-size: 40px;
+}
+
+.img1{
+    margin-top: 4px;
+    margin-left: 40px;
+
+    width: 600px;
+    height: 400px;
+    /* background-color: red; */
+}
+.list{
+    padding-left: 15px;
+    /* float: inline-end; */
+    background-color: #e2f0ff;
+    border: 2px solid #ededed;
+    width: 50%;
+    height: 350px;
+}
+.list a{
+    
+    color: #3baee2;
+}
+.list a:hover{
+    color: black;
+}
+
+.p{
+    /* background-color: red; */
+    margin: 40px;
+}
+
+ul li{
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+    /* color: #3baee2; */
+    
+    color: black;
+}
+
+.m{
+    width: 90%;
+    padding: 20px;
+    margin-left: 4%;
+    background-color: #ffe5e5;
+    text-align: center;
+    
+}
+img{
+    align-items: center;
+}

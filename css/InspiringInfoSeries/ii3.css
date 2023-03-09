@@ -1,0 +1,115 @@
+.page-title{
+    margin-top: 90px;
+    height: 3800px;
+}
+.comment{
+    width: 800px;
+    height: 400px;
+    /* border: 1px solid red; */
+    margin-left: 40px;
+    margin-top: 2%;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 17px;
+    /* padding: 10px 20px; */
+    justify-content: center;
+    background-color: #ffffff;
+}
+.submitcomment{
+    padding: 10px 15px;
+    background-color: #3baee2;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+.a{
+    padding: 40px;
+}
+h4{
+    margin-left: 40px;
+}
+
+
+
+
+.side{
+    text-align: center;
+    margin-top: 26px;
+    background-color: rgb(255, 255, 255);
+    height: 900px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 17px;
+    width: 380px;
+  }
+  
+  .navigation-bar{
+    padding: 33px;
+  }
+  .for-side{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+    width: 400px;
+  }
+  .side img{
+    padding: 40px 40px 10px 40px;
+    width: 300px;
+    height: auto;
+  }
+  .side-a{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 17px;
+    color: #3baee2;
+    text-align: center;
+    text-decoration: none;
+  }
+  .side a:hover{
+    color: black;
+  }
+  .side h3{
+    padding: 25px;
+  }
+  #side1{
+    height: 240px;
+  }
+  
+  .social{
+    display: flex;
+    padding: 24px;
+  }
+  #side2{
+    height: 980px;
+    text-align: center;
+  }
+  
+  #side3 a{
+    text-decoration: none;
+    font-size: 18px;
+    
+  }
+  #side3 p{
+    padding: 4px;
+  }
+  .pp{
+    padding: 30px;
+  }
+  #side3{
+    height: 300px;
+  }
+  
+  .sidec{
+    
+    display: block;
+    position: absolute;
+    margin-left: 65%;
+    z-index: -1;
+  }
+  
+  
+
+
+
+
+
+
